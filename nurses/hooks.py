@@ -14,8 +14,35 @@ app_license = "mit"
 # app_include_js = "/assets/nurses/js/nurses.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/nurses/css/nurses.css"
-# web_include_js = "/assets/nurses/js/nurses.js"
+web_include_css = [
+    "/assets/nurses/css/style.css",
+    "/assets/nurses/vendor/bootstrap/css/bootstrap.min.css",
+    "/assets/nurses/vendor/bootstrap-icons/bootstrap-icons.css",
+    "/assets/nurses/vendor/boxicons/css/boxicons.min.css",
+    "/assets/nurses/vendor/glightbox/css/glightbox.min.css",
+    "/assets/nurses/vendor/swiper/swiper-bundle.min.css",
+]
+web_include_js = [
+    "/assets/nurses/js/main.js"
+    "/assets/nurses/vendor/purecounter/purecounter_vanilla.js",
+  	"/assets/nurses/vendor/bootstrap/js/bootstrap.bundle.min.js",
+	"/assets/nurses/vendor/glightbox/js/glightbox.min.js",
+ 	"/assets/nurses/vendor/isotope-layout/isotope.pkgd.min.js",
+  	"/assets/nurses/vendor/swiper/swiper-bundle.min.js",
+  	"/assets/nurses/vendor/waypoints/noframework.waypoints.js",
+  	"/assets/nurses/vendor/php-email-form/validate.js",
+
+]
+web_include_img = [
+    "assets/nurses/img/about.jpg",
+	"assets/nurses/img/hero-bg.png",
+	"assets/nurses/img/team.jpg",
+    "assets/nurses/img/testimonials/testimonials-1.jpg",
+	"assets/nurses/img/testimonials/testimonials-2.jpg",
+	"assets/nurses/img/testimonials/testimonials-3.jpg",
+	"assets/nurses/img/testimonials/testimonials-4.jpg",
+	"assets/nurses/img/testimonials/testimonials-5.jpg",
+]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "nurses/public/scss/website"
